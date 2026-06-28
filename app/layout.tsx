@@ -22,7 +22,7 @@ export default function RootLayout({
         {children}
 
         {/* Footer */}
-        <footer className="p-4 text-center border-t">
+        <footer className="footer">
           © 2026 My Portfolio
         </footer>
 

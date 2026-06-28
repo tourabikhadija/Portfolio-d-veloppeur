@@ -8,6 +8,7 @@ type Project = {
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
+    <div className="project-card">
     <div className="border p-4 rounded-lg shadow-sm">
       
       <h3 className="text-xl font-bold">{project.title}</h3>
@@ -39,6 +40,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         </a>
       </div>
 
+    </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ProjectCard";
 export default function PortfolioPage() {
   return (
     <main className="p-8 max-w-5xl mx-auto">
-      
+      <div className="Portfolio">
       <h1 className="text-3xl font-bold mb-6">
         Mes Projets
       </h1>
@@ -14,7 +14,9 @@ export default function PortfolioPage() {
       </p>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="cart">
+
+      <div >
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
@@ -22,7 +24,8 @@ export default function PortfolioPage() {
           />
         ))}
       </div>
-
+      </div>
+    </div>
     </main>
   );
 }

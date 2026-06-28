@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen gap-8 p-6">
-      
+      <div className="Contact">
       <h1 className="text-3xl font-bold">Contact Me</h1>
 
       {/* Form */}
@@ -30,7 +30,7 @@ export default function Contact() {
           Envoyer
         </button>
       </form>
-
+    </div>
     </main>
   );
 }
